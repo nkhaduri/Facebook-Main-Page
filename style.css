@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+}
+
+#blue-div {
+	background-color: #4267b2;
+	height: 43px;
+	width: 100%;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #29487d 
+}
