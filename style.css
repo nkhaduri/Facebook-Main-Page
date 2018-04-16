@@ -51,3 +51,67 @@ body {
 #search-button:hover {
 	background-color: #edeff5;
 }
+
+.right-side {
+	float: right;
+	margin-top: -25px;
+}
+
+.border-div {
+	width: 1px;
+	height: 18px;
+	border-left: 1px solid #23232333;
+	margin-top: -22px;
+}
+
+#prof-pic {
+	border-radius: 25px;
+	margin-right: 45%;
+}
+
+.bar-text {
+	color: #fff;
+	font-size: 13px;
+	margin-top: -21px;
+}
+
+#name-span {
+	margin-right: 42.2%;
+}
+
+#border-div-0 {
+	margin-right: 41.3%; 
+}
+
+#home-span {
+	margin-right: 37.7%;
+}
+
+#friends-logo {
+	margin-right: 33%;
+}
+
+#mess-logo {
+	margin-right: 30.5%;
+}
+
+#notif-logo {
+	margin-right: 28%;
+}
+
+#border-div-1 {
+	margin-right: 26.5%;
+}
+
+#help-logo {
+	margin-right: 23.5%;
+}
+
+#down-arrow {
+	margin-right: 22%;
+	margin-top: -23px;
+}
+
+
+.right-side:hover {
+}
