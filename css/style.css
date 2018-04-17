@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: #E6E8EB;
 }
 
 #blue-div {
@@ -20,6 +21,7 @@ body {
 
 #logo-img {
 	float: left;
+	cursor: pointer;
 }
 
 #search-form {
@@ -33,6 +35,8 @@ body {
 }
 
 #search-input {
+	font-family: "Lucida Grande";
+	font-size: 0.9em;
 	width: 80%;
 	padding-left: 7px;
 	height: 23px;
@@ -40,7 +44,9 @@ body {
 }
 
 #search-button {
-	width: 8%;
+	position: absolute;
+	cursor: pointer;
+	width: 3%;
 	margin-left: -25px;
 	height: 25px;
 	background-color: #f6f7f9;
@@ -70,6 +76,7 @@ body {
 }
 
 .bar-text {
+	font-family: "Lucida Grande";
 	color: #fff;
 	font-size: 13px;
 	margin-top: -21px;
@@ -112,6 +119,11 @@ body {
 	margin-top: -23px;
 }
 
+img.right-side {
+	opacity: 0.8;
+}
 
 .right-side:hover {
+	opacity: 1;
+	cursor: pointer;
 }
