@@ -14,3 +14,12 @@ for (var i=0; i < myButtons.length; i++){
 		this.style.filter = "invert(0%)";
 	});
 }
+
+function activate(element_id){
+	var menu_items = document.getElementsByClassName("left-part-item");
+	for (var i = 0; i < menu_items.length; i++) {
+    	menu_items[i].classList.remove('active');
+	}
+
+	document.getElementById(element_id).classList.add('active');
+}

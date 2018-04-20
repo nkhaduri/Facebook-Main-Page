@@ -76,22 +76,22 @@ body {
 }
 
 .bar-text {
-	font-family: "Lucida Grande";
+	font-family: "Helvetica";
 	color: #fff;
-	font-size: 13px;
+	font-size: 12px;
 	margin-top: -21px;
 }
 
 #name-span {
-	margin-right: 42.2%;
+	margin-right: 42.5%;
 }
 
 #border-div-0 {
-	margin-right: 41.3%; 
+	margin-right: 41.5%; 
 }
 
 #home-span {
-	margin-right: 37.7%;
+	margin-right: 38%;
 }
 
 #friends-logo {
@@ -126,4 +126,47 @@ img.right-side {
 .right-side:hover {
 	opacity: 1;
 	cursor: pointer;
+}
+
+.fb-body {
+	
+}
+
+.left-part {
+	width: 19%;
+	float:left;
+}
+
+.middle-part {
+	width: 38%;
+	position: absolute;
+	margin-left: 19%;
+	height: 100px;
+	background-color: #00ff00;
+}
+
+.right-part {
+	width: 27%;
+	position: absolute;
+	margin-left: 57%;
+	height: 100px;
+	background-color: #0000ff;
+}
+
+.chat-div {
+	width: 16%;
+	position: absolute;
+	margin-left: 84%;
+	height: 100px;
+	background-color: #000000;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+  display: block;
+  color: black;
 }
