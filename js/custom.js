@@ -21,5 +21,6 @@ function activate(element_id){
     	menu_items[i].classList.remove('active');
 	}
 
+	console.log(element_id);
 	document.getElementById(element_id).classList.add('active');
 }

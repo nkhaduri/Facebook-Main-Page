@@ -46,17 +46,145 @@
   	<div class="left-part"> 
   		<ul id="left-ul">
 		  
-		  <li>
-		  	<img src="imgs/legion.jpg" alt="profile picture" height="20" width="20" id="prof-pic-left" class="prof-pic">
-		  	<a onclick="activate(this.id)" id="top-left-name" class="left-part-item" href="#profile">
+		  <li class="section-end">
+		  	<a onclick="activate(this.id)" id="left-part-name" class="left-part-item" href="#profile">
+		  		<img src="imgs/legion.jpg" alt="profile picture" height="20" width="20" id="prof-pic-left" class="prof-pic left-icon">
 		  		Nino Khaduri
 		  	</a>
 		  </li>
 
 		  <li>
-		  	<a onclick="activate(this.id)" class="active left-part-item" href="#news-feed">
+		  	<a onclick="activate(this.id)" id="left-part-feed" class="active left-part-item" href="#news-feed">
+		  		<i id="news-feed-icon" class="left-icon" draggable="false"> </i>
 		  		News Feed
 		  	</a>
+		  </li>
+
+		  <li class="section-end">
+		  	<a onclick="activate(this.id)" id="left-part-mess" class="left-part-item" href="#messenger">
+		  		<i id="messenger-icon" class="left-icon" draggable="false"> </i>
+		  		Messenger
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<span class="left-header"> Shortcuts </span>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-group0" class="left-part-item" href="#group0">
+		  		<i id="group0-icon" class="left-icon" draggable="false"> </i>
+		  		Operational Systems
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-group1" class="left-part-item" href="#group1">
+		  		<i id="group1-icon" class="left-icon" draggable="false"> </i>
+		  		კომპიუტერული მეცნიერებები და მათემატიკა(MACS) 2015
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-group2" class="left-part-item section-end" href="#group2">
+		  		<i id="group2-icon" class="left-icon" draggable="false"> </i>
+		  		Game Development 2017 - Freeuni 
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<span class="left-header"> Explore </span>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-events" class="left-part-item" href="#events">
+		  		<i id="events-icon" class="left-icon" draggable="false"> </i>
+		  		Events
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-groups" class="left-part-item" href="#groups">
+		  		<i id="group1-icon" class="left-icon" draggable="false"> </i>
+		  		Groups
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-pages" class="left-part-item" href="#pages">
+		  		<i id="pages-icon" class="left-icon" draggable="false"> </i>
+		  		Pages
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-on-this-day" class="left-part-item" href="#on-this-day">
+		  		<i id="on-this-day-icon" class="left-icon" draggable="false"> </i>
+		  		On This Day
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-photos" class="left-part-item" href="#photos">
+		  		<i id="photos-icon" class="left-icon" draggable="false"> </i>
+		  		Photos
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-friend-lists" class="left-part-item" href="#friend-lists">
+		  		<i id="friend-lists-icon" class="left-icon" draggable="false"> </i>
+		  		Friend Lists
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-manage-apps" class="left-part-item" href="#manage-apps">
+		  		<i id="manage-apps-icon" class="left-icon" draggable="false"> </i>
+		  		Manage Apps
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-pages-feed" class="left-part-item" href="#pages-feed">
+		  		<i id="pages-feed-icon" class="left-icon" draggable="false"> </i>
+		  		Pages Feed
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-saved" class="left-part-item" href="#saved">
+		  		<i id="saved-icon" class="left-icon" draggable="false"> </i>
+		  		Saved
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-games" class="left-part-item" href="#games">
+		  		<i id="games-icon" class="left-icon" draggable="false"> </i>
+		  		Games
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<a onclick="activate(this.id)" id="left-part-see-more" class="section-end" href="#on-this-day">
+		  		<i class="fas fa-caret-down left-icon" id="down-icon"> </i>
+		  		See More...
+		  	</a>
+		  </li>
+
+		  <li>
+		  	<span class="left-header"> Create </span>
+		  </li>
+
+		  <li id="left-part-create-li">
+		  	<a onclick="activate(this.id)" id="left-part-create-ad" class="create" href="#create-ad"> Ad </a>
+		  	<span class="create"> · </span>
+		  	<a onclick="activate(this.id)" id="left-part-create-page" class="create" href="#create-page"> Page </a>
+		  	<span class="create"> · </span>
+		  	<a onclick="activate(this.id)" id="left-part-create-group" class="create" href="#create-group"> Group </a> 
+		  	<span class="create"> · </span>
+		  	<a onclick="activate(this.id)" id="left-part-create-event" class="create" href="#create-event"> Event </a>  
 		  </li>
 
 		</ul>

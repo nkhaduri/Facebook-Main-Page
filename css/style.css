@@ -4,6 +4,7 @@ body {
 }
 
 #blue-div {
+	top: 0;
 	margin-top: 0;
 	background-color: #4267b2;
 	height: 32px;
@@ -12,21 +13,23 @@ body {
 	border-bottom-width: 1px;
 	border-bottom-color: #29487d; 
 	padding-top: 9px;
+	position: fixed;
 }
 
 #inner-div {
 	margin-right: 2px;
-	margin-left: 6%;
+	margin-left: 8.6%;
 }
 
 #logo-img {
 	float: left;
 	cursor: pointer;
+	margin-left: -3.5%;
 }
 
 #search-form {
 	width: 500px;
-	margin-left: 32px;
+	margin-left: -1%;
 }
 
 .search {
@@ -132,13 +135,13 @@ img.right-side {
 }
 
 .fb-body {
-	
+	padding-top: 12px;
+	margin-top: 42px;	
 }
 
 .left-part {
 	width: 19%;
 	float:left;
-	position: fixed;
 }
 
 .middle-part {
@@ -174,7 +177,7 @@ ul {
 #left-ul {
 	font-family: "Helvetica";
 	font-size: 13px;
-	margin-top: 15px;
+	margin-top: 0;
 }
 
 a {
@@ -184,15 +187,147 @@ a {
 }
 
 .left-part-item {
-	margin-top: 10px;
-	margin-left: 60px;
+	text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; 
+	padding: 6px 4px;
+	width: 170px;
+	height: 15px;
+	margin-left: 30px;
+	border: 1px solid #E6E8EB;
+}
+
+.left-part-item:hover {
+	background-color: #f6f7f9;
+	border-color: #dddfe2;
+	border-radius: 2px;
 }
 
 #prof-pic-left {
-	float: left;
-	margin-left: 35px;
+  float: left;
 }
 
-#top-left-name {
-	margin-bottom: 25px;
+.left-icon {
+	margin-right: 6px;
+	margin-top: -2px;
+	float: left;
+	background-image: url(../imgs/icons.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
 }
+
+.left-header {
+	padding: 6px 4px;
+	width: 170px;
+	height: 15px;
+	margin-left: 30px;
+	font-weight: 600;
+	color: #616770;
+}
+
+.section-end {
+	margin-bottom: 13px;
+}
+
+#news-feed-icon {
+	background-position: 0 -1111px;
+}
+
+#messenger-icon {
+	background-position: 0 -796px;
+}
+
+.active {
+	font-weight: bold;
+	background-color: #f6f7f9;
+	border-color: #dddfe2;
+	border-radius: 2px;
+}
+
+#group0-icon {
+	background-position: 0 -1468px;
+}
+
+#group1-icon {
+	background-position: 0 -985px;
+}
+
+#group2-icon {
+	background-image: url(../imgs/icons_1.png);
+	background-position: 0 -378px;
+}
+
+#events-icon {
+	background-image: url(../imgs/icons_2.png);
+	background-position: 0px -105px;
+}
+
+#pages-icon {
+	background-position: 0px -1216px;
+}
+
+#on-this-day-icon {
+	background-position: 0px -1195px;
+}
+
+#photos-icon {
+	background-position: 0px -1300px;
+}
+
+#friend-lists-icon {
+	background-position: 0px -1132px;
+}
+
+#manage-apps-icon {
+	background-image: url(../imgs/icons_1.png);
+	background-position: 0px -63px;
+}
+
+#pages-feed-icon {
+	background-position: 0px -1237px;
+}
+
+#saved-icon {
+	background-position: 0px -1342px;
+}
+
+#games-icon {
+	background-position: 0px -901px;
+}
+
+#left-part-see-more {
+	padding: 6px 4px;
+	width: 170px;
+	height: 15px;
+	margin-left: 37px;
+	color: #365899;
+}
+
+#left-part-see-more:hover {
+	text-decoration: underline;
+}
+
+#down-icon {
+	color: grey;
+	margin-right: 12px;
+}
+
+#left-part-create-li {
+	margin-left: 33px;
+	margin-top: 5px;
+}
+
+.create {
+	margin-left: 2px;
+	margin-right: 2px;
+	float: left;
+	color: #365899;
+}
+
+.create:hover {
+	text-decoration: underline;
+}
+
