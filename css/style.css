@@ -1,6 +1,8 @@
 body {
 	margin: 0;
 	background-color: #E6E8EB;
+	font-family: "Helvetica";
+	font-size: 13px;
 }
 
 #blue-div {
@@ -38,7 +40,6 @@ body {
 }
 
 #search-input {
-	font-family: "Helvetica";
 	font-size: 0.9em;
 	width: 80%;
 	padding-left: 7px;
@@ -82,7 +83,6 @@ body {
 }
 
 .bar-text {
-	font-family: "Helvetica";
 	color: #fff;
 	font-size: 12px;
 	margin-top: -21px;
@@ -173,8 +173,6 @@ ul {
 }
 
 #left-ul {
-	font-family: "Helvetica";
-	font-size: 13px;
 	margin-top: 0;
 }
 
@@ -224,8 +222,6 @@ a {
 	margin-left: 30px;
 	font-weight: 600;
 	color: #616770;
-	font-size: 13px;
-	font-family: "Helvetica";
 }
 
 .section-end {
@@ -304,8 +300,6 @@ a {
 	height: 15px;
 	margin-left: 37px;
 	color: #365899;
-	font-family: "Helvetica";
-	font-size: 13px;
 }
 
 .see-more:hover {
@@ -334,12 +328,7 @@ a {
 }
 
 #stories-div {
-	width: 284px;
 	height: 241px;
-	padding: 12px;
-	background-color: #fff;
-	border: 1px solid #dddfe2;
-	border-radius: 3px;
 }
 
 #stories-header {
@@ -371,8 +360,6 @@ a {
 }
 
 .my-day-text {
-	font-family: "Helvetica";
-	font-size: 13px;
 	margin-left: 65px;
 	padding-top: 10px;
 }
@@ -380,6 +367,10 @@ a {
 .my-day-name {
 	color: #365899;
 	font-weight: 600;
+}
+
+.my-day-name:hover {
+	text-decoration: underline;
 }
 
 .my-day-time {
@@ -390,8 +381,63 @@ a {
 
 .my-day-section {
 	margin-bottom: 17px;
+	cursor: pointer;
 }
 
 #my-day-see-more {
 	margin-left: 0;
+}
+
+.right-part-section {
+	margin-bottom: 12px;
+	width: 284px;
+	padding: 12px;
+	background-color: #fff;
+	border: 1px solid #dddfe2;
+	border-radius: 3px;
+}
+
+#events-div {
+	height: 42px;
+}
+
+.right-icon {
+	margin-top:-1px;
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 6px;
+	display: inline-block;
+}
+
+.right-part-item {
+	margin-top: -5px;
+	margin-bottom: 2px;
+	height: 20px;
+	padding-top: 5px;
+	padding-left: 3px;
+	border: 1px solid #fff;
+	border-radius:3px;
+	font-weight: 600;
+	color: #365899;
+}
+
+.right-part-item:hover {
+	background-color: #eef2f6;
+}
+
+#birthday-icon {
+	background-image: url(../imgs/icons_4.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: -362px -49px;
+}
+
+#and-span {
+	font-weight: 400;
+	color: grey;
+}
+
+#num-birthdays-span {
+	font-weight: 400;
 }
