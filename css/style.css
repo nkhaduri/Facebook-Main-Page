@@ -35,7 +35,7 @@ body {
 }
 
 #search-input {
-	font-family: "Lucida Grande";
+	font-family: "Helvetica";
 	font-size: 0.9em;
 	width: 80%;
 	padding-left: 7px;
@@ -70,8 +70,11 @@ body {
 	margin-top: -22px;
 }
 
-#prof-pic {
+.prof-pic {
 	border-radius: 25px;
+}
+
+#prof-pic-top {
 	margin-right: 45%;
 }
 
@@ -135,6 +138,7 @@ img.right-side {
 .left-part {
 	width: 19%;
 	float:left;
+	position: fixed;
 }
 
 .middle-part {
@@ -151,6 +155,7 @@ img.right-side {
 	margin-left: 57%;
 	height: 100px;
 	background-color: #0000ff;
+	position: fixed;
 }
 
 .chat-div {
@@ -159,14 +164,35 @@ img.right-side {
 	margin-left: 84%;
 	height: 100px;
 	background-color: #000000;
+	position: fixed;
 }
 
 ul {
 	list-style-type: none;
 }
 
+#left-ul {
+	font-family: "Helvetica";
+	font-size: 13px;
+	margin-top: 15px;
+}
+
 a {
 	text-decoration: none;
   display: block;
   color: black;
+}
+
+.left-part-item {
+	margin-top: 10px;
+	margin-left: 60px;
+}
+
+#prof-pic-left {
+	float: left;
+	margin-left: 35px;
+}
+
+#top-left-name {
+	margin-bottom: 25px;
 }
