@@ -156,8 +156,6 @@ img.right-side {
 	width: 27%;
 	position: absolute;
 	margin-left: 57%;
-	height: 100px;
-	background-color: #0000ff;
 	position: fixed;
 }
 
@@ -219,13 +217,15 @@ a {
 	width: 20px;
 }
 
-.left-header {
+.grey-header {
 	padding: 6px 4px;
 	width: 170px;
 	height: 15px;
 	margin-left: 30px;
 	font-weight: 600;
 	color: #616770;
+	font-size: 13px;
+	font-family: "Helvetica";
 }
 
 .section-end {
@@ -298,19 +298,21 @@ a {
 	background-position: 0px -901px;
 }
 
-#left-part-see-more {
+.see-more {
 	padding: 6px 4px;
 	width: 170px;
 	height: 15px;
 	margin-left: 37px;
 	color: #365899;
+	font-family: "Helvetica";
+	font-size: 13px;
 }
 
-#left-part-see-more:hover {
+.see-more:hover {
 	text-decoration: underline;
 }
 
-#down-icon {
+.down-icon {
 	color: grey;
 	margin-right: 12px;
 }
@@ -331,3 +333,65 @@ a {
 	text-decoration: underline;
 }
 
+#stories-div {
+	width: 284px;
+	height: 241px;
+	padding: 12px;
+	background-color: #fff;
+	border: 1px solid #dddfe2;
+	border-radius: 3px;
+}
+
+#stories-header {
+	margin-left: 0;
+	padding: 0;
+	margin-bottom: 12px;
+}
+
+.dots-icon {
+	background-image: url(../imgs/icons_3.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	float: right;
+	background-position: -21px -180px;
+	margin-right: -115px;
+	margin-top: -2px;
+}
+
+.my-day-image {
+	width: 48px;
+	height: 48px;
+	border: 2px solid #4080ff;
+	border-radius: 50%;
+	padding: 2px;
+	float: left;
+}
+
+.my-day-text {
+	font-family: "Helvetica";
+	font-size: 13px;
+	margin-left: 65px;
+	padding-top: 10px;
+}
+
+.my-day-name {
+	color: #365899;
+	font-weight: 600;
+}
+
+.my-day-time {
+	color: #90949c;
+	margin-top: 3px;
+	font-weight: 400;
+}
+
+.my-day-section {
+	margin-bottom: 17px;
+}
+
+#my-day-see-more {
+	margin-left: 0;
+}

@@ -68,7 +68,7 @@
 		  </li>
 
 		  <li>
-		  	<span class="left-header"> Shortcuts </span>
+		  	<span class="grey-header"> Shortcuts </span>
 		  </li>
 
 		  <li>
@@ -93,7 +93,7 @@
 		  </li>
 
 		  <li>
-		  	<span class="left-header"> Explore </span>
+		  	<span class="grey-header"> Explore </span>
 		  </li>
 
 		  <li>
@@ -167,14 +167,14 @@
 		  </li>
 
 		  <li>
-		  	<a onclick="activate(this.id)" id="left-part-see-more" class="section-end" href="#on-this-day">
-		  		<i class="fas fa-caret-down left-icon" id="down-icon"> </i>
+		  	<a onclick="activate(this.id)" class="see-more" class="section-end" href="#explore-see-more">
+		  		<i class="fas fa-caret-down left-icon down-icon"> </i>
 		  		See More...
 		  	</a>
 		  </li>
 
 		  <li>
-		  	<span class="left-header"> Create </span>
+		  	<span class="grey-header"> Create </span>
 		  </li>
 
 		  <li id="left-part-create-li">
@@ -197,7 +197,56 @@
 
   	<!-- right part of body -->
   	<div class="right-part"> 
+  		<div id="stories-div">
+  			<div class="grey-header" id="stories-header"> 
+  				<i class="dots-icon"> </i>
+  				Stories 
+  			</div> 
 
+  			<div class="my-day-section">
+  				<img class="my-day-image" src="imgs/david-haller.jpg" alt="DH">
+  				<div class="my-day-text">
+  					<div class="my-day-name">
+  						David Haller
+  					</div>
+  					<div class="my-day-time">
+  						3 minutes before
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="my-day-section">
+  				<img class="my-day-image" src="imgs/syd-barrett.jpg" alt="SB">
+  				<div class="my-day-text">
+  					<div class="my-day-name">
+  						Syd Barrett
+  					</div>
+  					<div class="my-day-time">
+  						10 minutes before
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="my-day-section">
+  				<img class="my-day-image" src="imgs/lenny-busker.png" alt="LB">
+  				<div class="my-day-text">
+  					<div class="my-day-name">
+  						Lenny Busker
+  					</div>
+  					<div class="my-day-time">
+  						1 hour ago
+  					</div>
+  				</div>
+  			</div>
+
+  			<div>
+  				<a onclick="activate(this.id)" id="my-day-see-more" class="see-more" href="#my-day-see-more">
+		  			<i class="fas fa-caret-down down-icon"> </i>
+		  			See More...
+		  		</a>
+  			</div>
+
+  		</div>
   	</div>
 
   	<!-- chat -->
