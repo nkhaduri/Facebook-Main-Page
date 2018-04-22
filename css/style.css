@@ -156,7 +156,6 @@ img.right-side {
 	width: 27%;
 	position: absolute;
 	margin-left: 57%;
-	position: fixed;
 }
 
 .chat-div {
@@ -335,6 +334,7 @@ a {
 	margin-left: 0;
 	padding: 0;
 	margin-bottom: 12px;
+	width: 100%;
 }
 
 .dots-icon {
@@ -346,7 +346,6 @@ a {
 	height: 20px;
 	float: right;
 	background-position: -21px -180px;
-	margin-right: -115px;
 	margin-top: -2px;
 }
 
@@ -371,6 +370,7 @@ a {
 
 .my-day-name:hover {
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .my-day-time {
@@ -440,4 +440,92 @@ a {
 
 #num-birthdays-span {
 	font-weight: 400;
+}
+
+#suggestions-div {
+	width: 284px;
+	height: 248px;
+}
+
+#suggestions-header {
+	margin-left: 0;
+	width:100%;
+	padding: 0;
+	margin-bottom: 12px;
+}
+
+#see-all-div {
+	float: right;
+	color: #4267b2;
+	font-weight: normal;
+}
+
+#see-all-div:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.suggestions-image  {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+}
+
+.add-friend-button {
+	background-color: #f6f7f9;
+	border: 1px solid #ced0d4;
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: bold;
+	width: 100px;
+	height: 25px;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: #4b4f56;
+}
+
+.add-friend-button:hover {
+	background-color: #e9ebee;
+}
+
+.add-friend-icon {
+	background-image: url(../imgs/icons_4.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: -180px -70px;
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin-top: 2px;
+	margin-right: 2px;
+}
+
+.suggestions-section {
+	margin-bottom: 10px;
+}
+
+.suggestions-text {
+	margin-left: 65px;
+	padding-top: 2px;
+}
+
+.suggestions-mutual {
+	margin-top: 0px;
+}
+
+.x-icon {
+	background-image: url(../imgs/x_icons.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 11px;
+	height: 11px;
+	float: right;
+	opacity: 0.7;
+}
+
+.x-icon:hover {
+	opacity: 1;
+	cursor: pointer;
 }
