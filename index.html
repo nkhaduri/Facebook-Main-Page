@@ -178,13 +178,13 @@
 		  </li>
 
 		  <li id="left-part-create-li">
-		  	<a onclick="activate(this.id)" id="left-part-create-ad" class="create" href="#create-ad"> Ad </a>
-		  	<span class="create"> · </span>
-		  	<a onclick="activate(this.id)" id="left-part-create-page" class="create" href="#create-page"> Page </a>
-		  	<span class="create"> · </span>
-		  	<a onclick="activate(this.id)" id="left-part-create-group" class="create" href="#create-group"> Group </a> 
-		  	<span class="create"> · </span>
-		  	<a onclick="activate(this.id)" id="left-part-create-event" class="create" href="#create-event"> Event </a>  
+		  	<a id="left-part-create-ad" class="create" href="#create-ad"> Ad </a>
+		  	<span class="create dot"> · </span>
+		  	<a id="left-part-create-page" class="create" href="#create-page"> Page </a>
+		  	<span class="create dot"> · </span>
+		  	<a id="left-part-create-group" class="create" href="#create-group"> Group </a> 
+		  	<span class="create dot"> · </span>
+		  	<a id="left-part-create-event" class="create" href="#create-event"> Event </a>  
 		  </li>
 
 		</ul>
@@ -278,7 +278,7 @@
   				<img class="suggestions-image" src="imgs/clark.jpg" alt="C">
   				<div class="suggestions-text">
   					<i class="x-icon" draggable="false"> </i>
-  					<div class="my-day-name">
+  					<div class="my-day-name suggestions-name">
   						Clark
   					</div>
   					<div class="my-day-time suggestions-mutual">
@@ -295,7 +295,7 @@
   				<img class="suggestions-image" src="imgs/cary-loudermilk.jpg" alt="C">
   				<div class="suggestions-text">
   					<i class="x-icon" draggable="false"> </i>
-  					<div class="my-day-name">
+  					<div class="my-day-name suggestions-name">
   						Cary Loudermilk
   					</div>
   					<div class="my-day-time suggestions-mutual">
@@ -312,12 +312,12 @@
   				<img class="suggestions-image" src="imgs/kerry-loudermilk.jpg" alt="C">
   				<div class="suggestions-text">
   					<i class="x-icon" draggable="false"> </i>
-  					<div class="my-day-name">
+  					<a class="my-day-name suggestions-name">
   						Kerry Loudermilk
-  					</div>
-  					<div class="my-day-time suggestions-mutual">
+  					</a>
+  					<a class="my-day-time suggestions-mutual">
   						20 mutual friends
-  					</div>
+  					</a>
   					<button class="add-friend-button" type="submit"> 
   						<i class="add-friend-icon" draggable="false"> </i>
   						Add Friend 
@@ -326,6 +326,42 @@
   			</div>
 
   		</div>
+
+  		<div id="languages-div" class="right-part-section">
+  			<div id="languages-inner">
+  				<a id="language-english" onclick="activate_language(this.id)" class="language active-language"> English(US) </a>
+			  	<span class="language dot"> · </span>
+			  	<a id="language-georgian" onclick="activate_language(this.id)" class="language"> ქართული </a>
+			  	<span class="language dot"> · </span>
+			  	<a id="language-russian" onclick="activate_language(this.id)" class="language"> Русский </a>
+			  	<span class="language dot"> · </span>
+			  	<a id="language-spanish" onclick="activate_language(this.id)" class="language"> Español </a>   
+			  	<span class="language dot"> · </span>
+			  	<a id="language-brasil" onclick="activate_language(this.id)" class="language"> Português (Brasil) </a>
+  			</div>
+
+  			<div id="plus-div">
+  				<i id="plus-icon"> </i>
+  			</div>
+  		</div>
+
+  		<div id="right-part-properties">
+  			<div id="properties-inner">
+  				<a class="property"> Privacy </a>
+			  	<span class="property dot"> · </span>
+			  	<a class="property"> Terms </a>
+			  	<span class="property dot"> · </span>
+			  	<a class="property"> Advertising </a>
+			  	<span class="property dot"> · </span>
+			  	<a class="property"> Ad Choices </a>   
+			  	<span class="property dot"> · </span>
+			  	<a class="property"> Cookies </a>
+			  	<span class="property dot"> · </span>
+			  	<a class="property"> More </a>
+  			</div>
+  		</div>
+
+  		<div id="copyright-span"> Facebook © 2018 </div>
 
   	</div>
 

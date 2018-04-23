@@ -443,7 +443,6 @@ a {
 }
 
 #suggestions-div {
-	width: 284px;
 	height: 248px;
 }
 
@@ -514,6 +513,15 @@ a {
 	margin-top: 0px;
 }
 
+.suggestions-mutual:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.suggestions-name:hover {
+	text-decoration: none;
+}
+
 .x-icon {
 	background-image: url(../imgs/x_icons.png);
 	background-size: auto;
@@ -528,4 +536,93 @@ a {
 .x-icon:hover {
 	opacity: 1;
 	cursor: pointer;
+}
+
+#languages-div {
+	height: 35px;
+}
+
+#languages-inner {
+	width: 238px;
+	float: left;
+}
+
+.language {
+	margin-left: 2px;
+	margin-right: 2px;
+	float: left;
+	color: #365899;
+}
+
+.language:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.active-language {
+	color: #90949c;
+}
+
+.active-language:hover {
+	cursor: auto;
+	text-decoration: none;
+}
+
+#plus-div {
+	width: 12px;
+	height: 26px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #f6f7f9;
+	border: 1px solid #ced0d4;
+	color: #4b4f56;
+	float: right;
+	border-radius: 2px;
+}
+
+#plus-div:hover {
+	background-color: #E6E8EB; 
+	cursor: pointer;
+}
+
+#plus-icon {
+	background-image: url(../imgs/icons_4.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: -219px -70px;
+	width: 12px;
+	height: 12px;
+	float: right;
+	margin-top: 7px;
+}
+
+#right-part-properties {
+	width: 284px;
+	height: 35px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.property {
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+	color: rgb(144, 148, 156);
+}
+
+.property:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.dot:hover {
+	text-decoration: none;
+	cursor: auto;
+}
+
+#copyright-span {
+	width: 284px;
+	color: #616770;
+	margin-bottom: 30px;
+	margin-left: 14px;
 }

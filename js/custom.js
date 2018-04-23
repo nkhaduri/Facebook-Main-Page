@@ -20,7 +20,14 @@ function activate(element_id){
 	for (var i = 0; i < menu_items.length; i++) {
     	menu_items[i].classList.remove('active');
 	}
-
-	console.log(element_id);
 	document.getElementById(element_id).classList.add('active');
+}
+
+function activate_language(element_id){
+	var menu_items = document.getElementsByClassName("language");
+	for (var i = 0; i < menu_items.length; i++) {
+    	menu_items[i].classList.remove('active-language');
+	}
+
+	document.getElementById(element_id).classList.add('active-language');
 }
