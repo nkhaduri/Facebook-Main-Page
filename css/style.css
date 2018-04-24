@@ -376,8 +376,8 @@ a {
 
 .my-day-time {
 	color: #90949c;
-	margin-top: 3px;
 	font-weight: 400;
+	margin-top: 3px;
 }
 
 .my-day-section {
@@ -772,7 +772,7 @@ a {
 }
 
 #post-0 {
-	height: 532px;
+	height: 592px;
 }
 
 .post-header {
@@ -799,10 +799,12 @@ a {
 
 .is-with-name {
 	font-weight: normal;
+	color: #365899;
 }
 
 .is-with-name:hover {
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .author-name:hover {
@@ -908,7 +910,9 @@ a {
 .comments-section {
 	background-color: #f2f3f5;
 	border-top: 1px solid #e1e2e3; 
-	height: 90px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	height: 150px;
 	padding: 12px;
 }
 
@@ -919,7 +923,9 @@ a {
 .reactions {
 	font-size: 13px;
 	color: #365899;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e1e2e3;
+	padding-bottom: 10px;
 }
 
 .reactions:hover {
@@ -983,4 +989,85 @@ a {
 #upload-photo-icon {
 	background-position: 0px -113px;
 	margin-right: 11px;
+}
+
+.comment {
+	margin-bottom: 3px;
+	height: 80px;
+	width: 476px;
+}
+
+.comment-wrapper {
+	float: left;
+	width: 426px;
+}
+
+.comment-text {
+	float: left;
+	margin-left: 5px;
+	font-size: 13px;
+	border-radius: 18px;
+	width: 160px;
+	height: 24px;
+	padding-left: 10px;
+	background-color: #fff;
+	padding-top: 6px;
+	color: #1d2129;
+}
+
+.comment-author {
+	font-weight: 600;
+	color: #365899;
+}
+
+.comment-author:hover {
+	text-decoration: underline;
+}
+
+.comment-time {
+	color: #90949c;
+	font-weight: 400;
+}
+
+.comment-time:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.comment-reaction {
+	font-size: 12px;
+	margin-left: 48px;
+	margin-top: 3px;
+}
+
+.replies-div {
+	height: 32px;
+	margin-top: 7px;
+	margin-left: 50px;
+	width: 426px;
+}
+
+.reply-icon {
+	float: left;
+	background-image: url(../imgs/icons_8.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: 0px -383px;
+	float: left;
+	width: 19px;
+	height: 9px;
+	margin-right: 4px;
+	margin-top: 8px;
+}
+
+.replies-info {
+	float: left;
+	font-size: 12px;
+	margin-left: 7px;
+	margin-top: 2px;
+}
+
+.replies-info-pic {
+	width: 20px;
+	height: 20px;
 }
